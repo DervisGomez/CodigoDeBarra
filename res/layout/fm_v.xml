@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/azul_4">
+   
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    
+		<RelativeLayout
+            android:id="@+id/tab5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+        	<RelativeLayout
+		        android:id="@+id/llSiguiente"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="8dp" >
+		
+		        <Button
+		            android:id="@+id/btnNuevaAnomalia"
+		            android:layout_width="45dp"
+		            android:layout_height="45dp"
+		            android:layout_alignParentBottom="true"
+		            android:layout_alignParentRight="true"
+		            android:layout_margin="@dimen/marginall"
+		            android:background="@drawable/cir_verde2"
+		            android:drawableLeft="@drawable/nuevo"
+		            android:gravity="center_vertical|center_horizontal"
+		            android:paddingLeft="9dp" />
+		
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_alignBaseline="@+id/btnNuevaAnomalia"
+		            android:layout_alignBottom="@+id/btnNuevaAnomalia"
+		            android:layout_toLeftOf="@+id/btnNuevaAnomalia"
+		            android:enabled="true"
+		            android:gravity="center_vertical|center_horizontal"
+		            android:text="Agregar Anomalía"
+		            android:onClick="com.app.codigodebarra.NuevaAnomalia"
+		            android:textColor="@color/gris_1" />
+		
+		    </RelativeLayout>
+                            
+                            <TableLayout
+                    			android:id="@+id/table_main3"
+			                    android:layout_width="match_parent"
+			                    android:layout_height="wrap_content"
+			                    android:stretchColumns="1,3,5,7"
+			                	android:shrinkColumns="1,3,5,7"
+			                    android:layout_marginTop="72dp"
+			                    android:layout_centerHorizontal="true" >
+			                </TableLayout>
+                            
+                        </RelativeLayout>
+	</ScrollView>	
+</LinearLayout>

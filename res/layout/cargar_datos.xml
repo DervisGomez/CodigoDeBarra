@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_4" >
+
+    
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabHost
+                android:id="@android:id/tabhost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TabWidget
+                        android:id="@android:id/tabs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/verde_2" >
+                    </TabWidget>
+<ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+                    <FrameLayout
+                        android:id="@android:id/tabcontent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <LinearLayout
+                            android:id="@+id/tab1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+                            
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Tipo equipo:" />
+                                <EditText
+                                    android:id="@+id/etTipoEquipo"
+                                    style="@style/datosEditText"
+                                    android:text="1027-6876">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Equipo padre:" />
+                                <EditText
+                                    android:id="@+id/etEquipoPadre"
+                                    style="@style/datosEditText"
+                                    android:text="1027">>
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Nombre equipo:" />
+                                <EditText
+                                    android:id="@+id/etNombreEquipo"
+                                    style="@style/datosEditText"
+                                    android:text="Equipo 1">>
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Nemónico:" />
+                                <EditText
+                                    android:id="@+id/etNemonico"
+                                    style="@style/datosEditText"
+                                    android:text="Equipazo">>
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Marca:" />
+                                <EditText
+                                    android:id="@+id/etMarca"
+                                    style="@style/datosEditText"
+                                    android:text="SANSUNG">>
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Modelo:" />
+                                <EditText
+                                    android:id="@+id/etModelo"
+                                    style="@style/datosEditText"
+                                    android:text="1721">>
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Serial:" />
+                                <EditText
+                                    android:id="@+id/etSerial"
+                                    style="@style/datosEditText"
+                                    android:text="23467239">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Estado:" />
+                                <EditText
+                                    android:id="@+id/etEstado"
+                                    style="@style/datosEditText"
+                                    android:text="Activo">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Propietario:" />
+                                <EditText
+                                    android:id="@+id/etPropietario"
+                                    style="@style/datosEditText"
+                                    android:text="Dervis">
+                                </EditText>
+                            </LinearLayout>
+                            
+                        </LinearLayout>
+                        
+                        <LinearLayout
+                            android:id="@+id/tab2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+                            
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Uso:" />
+                                <EditText
+                                    android:id="@+id/etUso"
+                                    style="@style/datosEditText"
+                                    android:text="Comunicar">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Condición de entrada:" />
+                                <EditText
+                                    android:id="@+id/etCondicionEntrada"
+                                    style="@style/datosEditText"
+                                    android:text="Usado">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Años de vida util:" />
+                                <EditText
+                                    android:id="@+id/etVidaUtil"
+                                    style="@style/datosEditText"
+                                    android:text="12">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Codificación:" />
+                                <EditText
+                                    android:id="@+id/etCodificacion"
+                                    style="@style/datosEditText"
+                                    android:text="AKC">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Criticidad:" />
+                                <EditText
+                                    android:id="@+id/etCriticidad"
+                                    style="@style/datosEditText"
+                                    android:text="A">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Ubicación:" />
+                                <EditText
+                                    android:id="@+id/etUbicacion"
+                                    style="@style/datosEditText"
+                                    android:text="CN Informatica">
+                                </EditText>
+                            </LinearLayout>
+                            
+                        </LinearLayout>
+                        
+                        <RelativeLayout
+                            android:id="@+id/tab3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="vertical" >
+                            
+                             <TableLayout
+                    			android:id="@+id/table_main"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_centerHorizontal="true" >
+			                </TableLayout>
+                            
+                        </RelativeLayout>
+                        
+                        <RelativeLayout
+                            android:id="@+id/tab4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="right"
+                            android:orientation="vertical" >
+
+                            <RelativeLayout
+        android:id="@+id/llSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp" >
+
+        <Button
+            android:id="@+id/btnNuevaAnomalia"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/marginall"
+            android:background="@drawable/cir_verde2"
+            android:drawableLeft="@drawable/nuevo"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="9dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnNuevaAnomalia"
+            android:layout_alignBottom="@+id/btnNuevaAnomalia"
+            android:layout_toLeftOf="@+id/btnNuevaAnomalia"
+            android:enabled="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Agregar Anomalía"
+            android:textColor="@color/gris_1" />
+
+    </RelativeLayout>
+                            
+                            <TableLayout
+                    			android:id="@+id/table_main2"
+			                    android:layout_width="wrap_content"
+			                    android:layout_height="wrap_content"
+			                    android:layout_marginTop="72dp"
+			                    android:layout_centerHorizontal="true" >
+			                </TableLayout>
+                            
+                        </RelativeLayout>
+                        
+                    </FrameLayout>
+                 </ScrollView>
+                </LinearLayout>
+            </TabHost>
+
+        </LinearLayout>
+    
+
+</AbsoluteLayout>

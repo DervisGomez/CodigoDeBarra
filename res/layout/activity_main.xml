@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_4"
+    android:gravity="center_vertical" >
+    
+    <TextView
+	    android:id="@+id/textView1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_margin="@dimen/marginall"
+	    android:text="ESCANEAR"
+	    android:textSize="18dp"
+	    android:textColor="@color/gris_1" />
+
+    <Button android:id="@+id/scan_button"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:background="@drawable/cir_verde2"
+        android:layout_centerHorizontal="true"
+        android:drawableTop="@drawable/cb"
+	    android:layout_margin="@dimen/marginall"
+        android:paddingTop="16dp"
+        android:layout_below="@id/textView1"
+        android:text="" />
+    <TextView
+	    android:id="@+id/scan_format"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_margin="16dp"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:textSize="16dp"
+	    android:layout_below="@id/scan_button"
+	    android:text="Escanee el código de barras que se encuentra en el equipo a consultar" />
+	<TextView
+	    android:id="@+id/scan_content"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textIsSelectable="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_margin="@dimen/marginall"
+	    android:layout_below="@id/scan_format" />
+
+</RelativeLayout>

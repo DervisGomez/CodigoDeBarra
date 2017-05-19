@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/azul_4" >
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    
+	 	<LinearLayout
+                            android:id="@+id/tab1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+                            
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Tipo equipo:" />
+                                <EditText
+                                    android:id="@+id/etTipoEquipo"
+                                    style="@style/datosEditText"
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Equipo padre:" />
+                                <EditText
+                                    android:id="@+id/etEquipoPadre"
+                                    style="@style/datosEditText"
+                                    android:text="">>
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Nombre equipo:" />
+                                <EditText
+                                    android:id="@+id/etNombreEquipo"
+                                    style="@style/datosEditText"
+                                    android:text="">>
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Nemónico:" />
+                                <EditText
+                                    android:id="@+id/etNemonico"
+                                    style="@style/datosEditText"
+                                    android:text="">>
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Marca:" />
+                                <EditText
+                                    android:id="@+id/etMarca"
+                                    style="@style/datosEditText"
+                                    android:text="">>
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Modelo:" />
+                                <EditText
+                                    android:id="@+id/etModelo"
+                                    style="@style/datosEditText"
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Serial:" />
+                                <EditText
+                                    android:id="@+id/etSerial"
+                                    style="@style/datosEditText"
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Estado:" />
+                                <EditText
+                                    android:id="@+id/etEstado"
+                                    style="@style/datosEditText"
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Propietario:" />
+                                <EditText
+                                    android:id="@+id/etPropietario"
+                                    style="@style/datosEditText"
+                                    android:text="">
+                                </EditText>
+                            </LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

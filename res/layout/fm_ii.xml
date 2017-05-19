@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/azul_4">
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    
+		<LinearLayout
+                            android:id="@+id/tab2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+                            
+		    				<LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Factura:" />
+                                <EditText
+                                    android:id="@+id/etFactura"
+                                    style="@style/datosEditText"
+                                    android:text="111111">
+                                </EditText>
+                            </LinearLayout>
+                            
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Uso:" />
+                                <EditText
+                                    android:id="@+id/etUso"
+                                    style="@style/datosEditText"
+                                    android:text="Comunicar">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Condición de entrada:" />
+                                <EditText
+                                    android:id="@+id/etCondicionEntrada"
+                                    style="@style/datosEditText"
+                                    android:text="Usado">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Años de vida util:" />
+                                <EditText
+                                    android:id="@+id/etVidaUtil"
+                                    style="@style/datosEditText"
+                                    android:text="12">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Codificación:" />
+                                <EditText
+                                    android:id="@+id/etCodificacion"
+                                    style="@style/datosEditText"
+                                    android:text="AKC">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Criticidad:" />
+                                <EditText
+                                    android:id="@+id/etCriticidad"
+                                    style="@style/datosEditText"
+                                    android:text="A">
+                                </EditText>
+                            </LinearLayout>
+                            <LinearLayout
+                                style="@style/datosLinearLayout"
+                            	android:orientation="horizontal" >
+                                <TextView
+                                    style="@style/datosTextView"
+                                    android:text="Ubicación:" />
+                                <EditText
+                                    android:id="@+id/etUbicacion"
+                                    style="@style/datosEditText"
+                                    android:text="CN Informatica">
+                                </EditText>
+                            </LinearLayout>
+                            
+                        </LinearLayout>
+	</ScrollView>                       
+	
+</LinearLayout>
